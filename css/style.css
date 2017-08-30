@@ -52,12 +52,26 @@ h1 {
 text-align: center;
 }
 
-/* Images */
+h3 {
+text-align: center;
+display: block;
+background-color: black;
+color: white;
 
-img.inline {
-max-width: 80%;
-margin: 20px auto;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-khtml-border-radius: 10px;
+
+margin-top: 5px;
+margin-bottom: 5px;
+margin-right: auto;
+margin-left: auto;
+width: 70%;
+max-width: 400px;
 }
+
+/* Images */
 
 img.store {
 display: block;
@@ -65,19 +79,8 @@ margin-top: 5px;
 margin-bottom: 5px;
 margin-right: auto;
 margin-left: auto;
-width: 400px;
-}
-
-img.googleplay {
-margin: 10px;
-height: 40px;
-width: 135px;
-}
-
-object.appstore {
-margin: 10px;
-height: 40px;
-width: 400px;
+width: 70%;
+max-width: 400px;
 }
 
 img.icon {
@@ -87,4 +90,10 @@ margin-top: 5px;
 margin-bottom: 5px;
 height: 35px;
 width: 35px;
+}
+
+/* Footer */
+
+p.footer {
+font-size: 0.8em;
 }
