@@ -10,7 +10,8 @@ color: black;
 line-height: 1;
 background-color: white;
 text-align: justify;
-width: 60%;
+width: 90%;
+max-width: 800px;
 background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../images/BG.png");
 background-size: cover;
 }
@@ -63,12 +64,10 @@ color: white;
 border-radius: 10px;
 -khtml-border-radius: 10px;
 
-margin-top: 5px;
-margin-bottom: 5px;
-margin-right: auto;
-margin-left: auto;
-width: 70%;
-max-width: 400px;
+padding: 5px;
+margin: 0 auto;
+width: 80%;
+max-width: 390px;
 }
 
 /* Images */
@@ -79,7 +78,7 @@ margin-top: 5px;
 margin-bottom: 5px;
 margin-right: auto;
 margin-left: auto;
-width: 70%;
+width: 80%;
 max-width: 400px;
 }
 
@@ -96,4 +95,5 @@ width: 35px;
 
 p.footer {
 font-size: 0.8em;
+text-align: left;
 }
