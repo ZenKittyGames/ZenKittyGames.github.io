@@ -1,0 +1,7 @@
+# Ignore Jekyll Generated Files
+_site/
+.sass-cache/
+.jekyll-metadata
+
+# Thumbnails
+Thumbs.db

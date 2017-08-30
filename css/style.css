@@ -1,0 +1,90 @@
+
+/* Body */
+
+body {
+margin: 0 auto;
+padding: 0;
+font-family: 'Quattrocento', Georgia, serif;
+font-size: 1.5em;
+color: black;
+line-height: 1;
+background-color: white;
+text-align: justify;
+width: 60%;
+background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("../images/BG.png");
+background-size: cover;
+}
+
+/* Links */
+
+a {
+color: #17a37c;
+text-decoration: none;
+}
+
+a:visited {
+color: #17a37c;
+text-decoration: none;
+}
+
+a:hover {
+color: #202020;
+text-decoration: underline;
+}
+
+/* Icon Links */
+
+a.icon {
+text-decoration: none;
+}
+
+a.icon:visited {
+text-decoration: none;
+}
+
+a.icon:hover {
+text-decoration: none;
+}
+
+/* Headings */
+
+h1 {
+text-align: center;
+}
+
+/* Images */
+
+img.inline {
+max-width: 80%;
+margin: 20px auto;
+}
+
+img.store {
+display: block;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-right: auto;
+margin-left: auto;
+width: 400px;
+}
+
+img.googleplay {
+margin: 10px;
+height: 40px;
+width: 135px;
+}
+
+object.appstore {
+margin: 10px;
+height: 40px;
+width: 400px;
+}
+
+img.icon {
+margin-left: 15px;
+margin-right: 15px;
+margin-top: 5px;
+margin-bottom: 5px;
+height: 35px;
+width: 35px;
+}
